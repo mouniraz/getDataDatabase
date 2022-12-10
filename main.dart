@@ -5,9 +5,7 @@ import 'package:databasefire/Client.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'User.dart';
 import 'firebase_options.dart';
-import 'package:email_validator/email_validator.dart';
 
 void main() {
   initFirebase();
@@ -47,13 +45,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-  final _emailController = TextEditingController();
-  bool _validateemail = false;
-  List<User> list = [];
-  var stream;
-  final _passwordcontroller = TextEditingController();
-  bool _validatemdp = false;
+  
 
  
 
