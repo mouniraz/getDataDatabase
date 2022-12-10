@@ -5,9 +5,7 @@ class Client {
   int age;
   Client(this.name, this.age);
 
- /*Client.fromSnapshot(DataSnapshot snapshot) :
-     name = snapshot.child("name"),
-     age = snapshot.value["age"];*/
+
   @override
   String toString() {
     // TODO: implement toString
